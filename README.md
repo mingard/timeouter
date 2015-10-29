@@ -2,6 +2,11 @@
 
 > Create and manage repeating tasks
 
+## Getting Started
+
+```shell
+[sudo] npm install timeouter --save
+
 ## Examples
 
 ```js
