@@ -6,11 +6,41 @@
 
 ```js
 
+//Start a basic repeating log
+var func = timeouter.add({
+	func: function() {
+		console.log("Repeating event")
+	},
+	timeout: 1000
+})
+
+//Call another method
+var func = timeouter.add({
+	func: yourMethod,
+	timeout: 1000
+})
+
+//Call with a function declaration
+var func = timeouter.add({
+	func: function() {
+		yourMethod("Hello World!");
+	},
+	timeout: 1000
+})
+
+//Stop the repeater
+func.remove();
+
+//Call the repeater method as a one-off
+func.method();
+
 ```
 
 ## Usage
 
 ```js
+
+var timeouter = require('timeouter');
 
 ```
 
