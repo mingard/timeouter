@@ -1,0 +1,40 @@
+{
+  "name": "timeouter",
+  "version": "1.0.0",
+  "description": "Create and manage repeating tasks",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mingard/timeouter.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cron",
+    "timout",
+    "repeat"
+  ],
+  "author": {
+    "name": "Arthur Mingard"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mingard/timeouter/issues"
+  },
+  "homepage": "https://github.com/Mingard/timeouter",
+  "_id": "timeouter@1.0.0",
+  "_from": "timeouter@>=1.0.0- <1.1.0",
+  "_npmVersion": "2.1.6",
+  "_nodeVersion": "0.10.33",
+  "_npmUser": {
+    "name": "arthurmingard",
+    "email": "webservices@arthurmingard.com"
+  },
+  "maintainers": [
+    {
+      "name": "sandfox",
+      "email": "webservices@arthurmingard.com"
+    }
+  ]
+}
