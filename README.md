@@ -6,7 +6,6 @@
 
 ```shell
 [sudo] npm install timeouter --save
-
 ```
 
 ## Examples
