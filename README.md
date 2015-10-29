@@ -40,6 +40,9 @@ func.remove();
 //Call the repeater method as a one-off
 func.method();
 
+//Get list of all running timers
+timeouter.get();
+
 ```
 
 ## Usage
